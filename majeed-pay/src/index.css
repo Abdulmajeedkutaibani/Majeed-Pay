@@ -12,6 +12,7 @@
   --secondary-color-4: #6c8294;
 }
 body {
+  margin-top: 3rem;
   background: lightsteelblue;
 }
 .container {
@@ -83,7 +84,7 @@ body {
   border-radius: 24px;
   font-weight: bold;
   font-size: 15px;
-  width: 129px;
+  width: 152px;
   height: 48px;
   border: var(--secondary-color-1) solid 1px;
   cursor: pointer;
@@ -100,4 +101,13 @@ body {
 .btn-3-disabled:hover {
   background: none;
   color: var(--secondary-color-1);
+}
+
+@media screen and (max-width: 768px) {
+  .btn-1 {
+    width: 327px;
+  }
+  .btn-3 {
+    width: 168px;
+  }
 }
