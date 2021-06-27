@@ -1,8 +1,9 @@
 import Btn from './components/Btn';
+import TextField from './components/TextField';
 function App() {
   return (
     <div className='container'>
-      <Btn btnType='btn-1' btnText='About Us' />
+      <TextField />
     </div>
   );
 }
