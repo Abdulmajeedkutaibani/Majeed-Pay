@@ -11,10 +11,16 @@ const schema = yup.object().shape({
   message: yup.string().required(),
 });
 const Form = () => {
-  const { register, handleSubmit, errors } = useForm({
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm({
     resolver: yupResolver(schema),
   });
-  const submitForm = (data) => {};
+  const submitForm = (data) => {
+    console.log(data);
+  };
 
   return (
     <div className='form'>
@@ -29,10 +35,39 @@ const Form = () => {
             placeholder='Name'
             {...register('name')}
           />
-          <input type='text' name='email' placeholder='Email Address' />
-          <input type='text' name='company' placeholder='Company Name' />
-          <input type='text' name='title' placeholder='Title' />
-          <input type='text' name='message' placeholder='Message' />
+          <p>{errors.name && 'Name is required'}</p>
+          <input
+            type='text'
+            name='email'
+            placeholder='Email Address'
+            {...register('email')}
+          />
+          <p>{errors.email && 'Email is required'}</p>
+
+          <input
+            type='text'
+            name='company'
+            placeholder='Company Name'
+            {...register('company')}
+          />
+          <p>{errors.company && 'Company Name is required'}</p>
+
+          <input
+            type='text'
+            name='title'
+            placeholder='Title'
+            {...register('title')}
+          />
+          <p>{errors.title && 'Title is required'}</p>
+
+          <input
+            type='text'
+            name='message'
+            placeholder='Message'
+            {...register('message')}
+          />
+          <p>{errors.message && 'Message is required'}</p>
+
           <button type='submit'>submit</button>
         </form>
       </div>
