@@ -1,10 +1,9 @@
-import TextField from './components/TextField';
+import Form from './components/Form/Form';
+
 function App() {
-  // const eventHandler = () => {
-  //   console.log('this is a test');
   return (
     <div className='container'>
-      <TextField />
+      <Form />
     </div>
   );
 }

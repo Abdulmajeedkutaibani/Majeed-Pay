@@ -131,15 +131,17 @@ textarea {
   word-wrap: normal;
   background: none;
   font-size: 15px;
+  font-weight: normal;
   outline: none;
   color: var(--secondary-color-1);
   resize: none;
 }
 
-.error {
+.active-text-field {
   opacity: 1;
-  border-bottom: 1px red solid;
+  border-bottom: var(--secondary-color-1) solid 1px;
 }
-.error::placeholder {
+.text-error {
   color: #ff0000;
+  border-bottom: #ff0000 solid 1px;
 }
