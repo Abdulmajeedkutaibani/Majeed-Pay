@@ -91,6 +91,7 @@ body {
   height: 48px;
   border: var(--secondary-color-1) solid 1px;
   cursor: pointer;
+  background: none;
 }
 .btn-3:hover {
   background: var(--secondary-color-1);
@@ -119,6 +120,7 @@ body {
 form {
   display: flex;
   flex-direction: column;
+  gap: 24px;
 }
 .form .title {
   font-family: DM Serif Display;
@@ -126,8 +128,8 @@ form {
   color: var(--secondary-color-1);
   padding-bottom: 43px;
 }
-.input-field {
-  margin-bottom: 24px;
+.inputs {
+  gap: 24px;
 }
 input {
   padding-left: 20px;
@@ -145,7 +147,8 @@ input {
   resize: none;
 }
 
-form input:focus {
+form .input-field input:focus,
+form .message-input-field input:focus {
   border-bottom: var(--secondary-color-1) solid 1px;
   opacity: 1;
 }
@@ -182,13 +185,12 @@ form input:focus {
 .checkbox-container {
   display: flex;
   position: relative;
-  height: 200px;
-  width: 200px;
-  border: 1px black solid;
+
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .checkbox {
+  margin-right: 26px;
   padding: 0;
   width: 24px;
   height: 24px;
@@ -196,7 +198,6 @@ form input:focus {
   background: var(--secondary-color-2);
   opacity: 0.25;
   cursor: pointer;
-  border-radius: 5px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -217,4 +218,11 @@ form input:focus {
 
 .checkbox:checked::after {
   display: block;
+}
+
+.checkbox-container label {
+  font-size: 15px;
+  color: var(--secondary-color-1);
+  font-style: normal;
+  font-weight: normal;
 }

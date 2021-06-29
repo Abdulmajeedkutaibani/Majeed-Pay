@@ -4,6 +4,8 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
+import Checkbox from './Checkbox';
+import Btn from '../Btn';
 
 const schema = yup.object().shape({
   name: yup.string().required(),
@@ -81,10 +83,9 @@ const Form = () => {
             />
             <p>{errors.message && 'This field can’t be empty'}</p>
           </div>
+          <Checkbox />
+          <Btn btnType='btn-3' btnText='Submit' />
         </form>
-        <div className='checkbox-container'>
-          <input className='checkbox' type='checkbox' />
-        </div>
       </div>
     </div>
   );
