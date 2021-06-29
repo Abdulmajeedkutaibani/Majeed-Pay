@@ -81,10 +81,10 @@ const Form = () => {
             />
             <p>{errors.message && 'This field can’t be empty'}</p>
           </div>
-          <div className='checkbox-container'>
-            <input className='checkbox' type='checkbox' />
-          </div>
         </form>
+        <div className='checkbox-container'>
+          <input className='checkbox' type='checkbox' />
+        </div>
       </div>
     </div>
   );

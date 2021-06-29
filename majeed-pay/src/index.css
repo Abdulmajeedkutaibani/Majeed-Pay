@@ -145,7 +145,7 @@ input {
   resize: none;
 }
 
-input:focus {
+form input:focus {
   border-bottom: var(--secondary-color-1) solid 1px;
   opacity: 1;
 }
@@ -190,10 +190,10 @@ input:focus {
 }
 .checkbox {
   padding: 0;
-  width: 80px;
-  height: 80px;
+  width: 24px;
+  height: 24px;
   appearance: none;
-  background-color: #d5d5d5;
+  background: var(--secondary-color-2);
   opacity: 0.25;
   cursor: pointer;
   border-radius: 5px;
@@ -205,13 +205,16 @@ input:focus {
 .checkbox::after {
   content: url(./check-solid.svg);
   position: absolute;
-  width: 24px;
+  width: 14px;
+  height: 13px;
   display: none;
 }
 
 .checkbox:checked {
   background: var(--primary-color-1);
+  opacity: 1;
 }
+
 .checkbox:checked::after {
   display: block;
 }
