@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
+import './Form.css';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import Checkbox from './Checkbox';
 import Btn from '../Btn';
 
