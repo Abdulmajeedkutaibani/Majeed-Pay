@@ -168,7 +168,6 @@ nav {
 }
 
 .navList ul li button {
-  display: none;
 }
 
 .menu-btn {
@@ -229,7 +228,6 @@ nav {
   }
 
   .navBtn {
-    display: none;
   }
   .close-icon {
     margin-left: 75%;
@@ -264,8 +262,8 @@ nav {
     cursor: pointer;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .navList {
-    display: block;
+    display: flex;
   }
 }

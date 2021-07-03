@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 const NavList = () => {
   const closeMenu = () => {
-    return (document.getElementById('navList').style.display = 'none');
+    document.getElementById('navList').style.display = 'none';
   };
   return (
     <div id='navList' className='navList'>

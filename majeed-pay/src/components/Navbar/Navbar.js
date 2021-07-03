@@ -15,9 +15,6 @@ const Navbar = () => {
         <img src={MenuBtn} alt='' />
       </div>
       <NavList />
-      <div className='navBtn'>
-        <Btn btnType='btn-1' btnText='Schedule a Demo' />
-      </div>
     </nav>
   );
 };
