@@ -1,10 +1,10 @@
 import React from 'react';
 import Btn from '../Btn';
-import { useState } from 'react';
 
-const NavList = () => {
+const NavList2 = ({ navListClass }) => {
   return (
-    <div className='navList1'>
+    <div className={navListClass}>
+      <div className='bottom-line'></div>
       <ul>
         <li>
           <a href=''>Pricing</a>
@@ -15,10 +15,12 @@ const NavList = () => {
         <li>
           <a href=''>Contact</a>
         </li>
+        <li>
+          <Btn btnType='btn-1' btnText='Schedule a Demo' />
+        </li>
       </ul>
-      <Btn btnType='btn-1' btnText='Schedule a Demo' />
     </div>
   );
 };
 
-export default NavList;
+export default NavList2;

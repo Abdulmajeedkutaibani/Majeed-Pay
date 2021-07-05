@@ -5,7 +5,7 @@ const Logo = () => {
   return (
     <div className='navIcon'>
       <img src={Icon} alt='' />
-      <label htmlFor='home'>MajeedPay</label>
+      <span>MajeedPay</span>
     </div>
   );
 };

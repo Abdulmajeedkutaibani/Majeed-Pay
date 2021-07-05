@@ -5,7 +5,7 @@ const LogoWhite = () => {
   return (
     <div className='navIcon navIcon-white'>
       <img src={IconWhite} alt='' />
-      <label htmlFor='home'>MajeedPay</label>
+      <span>MajeedPay</span>
     </div>
   );
 };
