@@ -1,8 +1,8 @@
 import { React, useState } from 'react';
 import './Navbar.css';
-import Logo from './Logo';
+import Logo from '../Logo';
 import MenuBtn from './MenuBtn';
-import NavList from './NavList';
+import NavList from './NavList1';
 import NavList2 from './NavList2';
 const Navbar = () => {
   const [navListClass, setNavListClass] = useState('navList2-hidden');
