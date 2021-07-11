@@ -1,10 +1,10 @@
 import React from 'react';
-import Tesla from '../Tesla.svg';
-import Microsoft from '../Microsoft.svg';
-import Hp from '../Hp.svg';
-import Oracle from '../Oracle.svg';
-import Google from '../Google.svg';
-import Nvidia from '../Nvidia.svg';
+import Tesla from './Tesla.svg';
+import Microsoft from './Microsoft.svg';
+import Hp from './Hp.svg';
+import Oracle from './Oracle.svg';
+import Google from './Google.svg';
+import Nvidia from './Nvidia.svg';
 
 const BannerLogos = () => {
   return (

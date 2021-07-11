@@ -1,4 +1,5 @@
 import React from 'react';
+import './Banner.css';
 import BannerInfo from './BannerInfo';
 import BannerLogos from './BannerLogos';
 const Banner = () => {
