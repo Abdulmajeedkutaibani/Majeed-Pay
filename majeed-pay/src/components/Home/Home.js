@@ -1,4 +1,5 @@
 import React from 'react';
+import './Home.css';
 import EmailInput from '../EmailInput';
 import PhoneNotification from '../Phone/PhoneNotification';
 

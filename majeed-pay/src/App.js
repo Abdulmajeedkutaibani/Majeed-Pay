@@ -12,10 +12,11 @@ import BannerInfo from './components/Banner/BannerInfo';
 import BannerLogos from './components/Banner/BannerLogos';
 import Banner from './components/Banner/Banner';
 import Home from './components/Home/Home';
+import FeaturesGroup from './components/Features/FeaturesGroup';
 function App() {
   return (
     <div className='container'>
-      <Home />
+      <FeaturesGroup />
     </div>
   );
 }
