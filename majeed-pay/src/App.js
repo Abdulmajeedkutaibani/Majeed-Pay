@@ -14,11 +14,16 @@ import Banner from './components/Banner/Banner';
 import FeaturesGroup from './components/Features/FeaturesGroup';
 import ReadyToStart from './components/ReadyToStart';
 import Features from './components/Features/Features';
-import HomePage from './components/Home/HomePage';
+import HomePage from './components/Pages/HomePage';
+import FreePlan from './components/Plans/FreePlan';
+import BasicPlan from './components/Plans/BasicPlan';
+import PremiumPlan from './components/Plans/PremiumPlan';
+import Plans from './components/Plans/Plans';
+import PricingPage from './components/Pages/PricingPage';
 function App() {
   return (
     <div className='container'>
-      <HomePage />
+      <PricingPage />
     </div>
   );
 }

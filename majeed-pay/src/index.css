@@ -234,6 +234,11 @@ body {
   flex-direction: column;
   gap: 6rem;
 }
+.pricing-page {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
 /* -------------------------------
 -------------------------------
 -------------------------------
