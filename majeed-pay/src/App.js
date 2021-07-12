@@ -11,13 +11,14 @@ import PhoneApp2 from './components/Phone/PhoneApp2';
 import BannerInfo from './components/Banner/BannerInfo';
 import BannerLogos from './components/Banner/BannerLogos';
 import Banner from './components/Banner/Banner';
-import Home from './components/Home/Main';
 import FeaturesGroup from './components/Features/FeaturesGroup';
 import ReadyToStart from './components/ReadyToStart';
+import Features from './components/Features/Features';
+import HomePage from './components/Home/HomePage';
 function App() {
   return (
     <div className='container'>
-      <Feature1 />
+      <HomePage />
     </div>
   );
 }

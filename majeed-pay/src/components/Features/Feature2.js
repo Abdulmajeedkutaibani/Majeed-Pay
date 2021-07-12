@@ -5,7 +5,7 @@ import PhoneApp from '../Phone/PhoneApp';
 import PhoneApp2 from '../Phone/PhoneApp2';
 const Feature2 = () => {
   return (
-    <div className='feature feature2'>
+    <div className='feature2'>
       <TitleAndInfo
         title='Simple UI & UX'
         info='Our pre-built form is easy to integrate in your app or website’s checkout flow and designed to optimize conversion.'

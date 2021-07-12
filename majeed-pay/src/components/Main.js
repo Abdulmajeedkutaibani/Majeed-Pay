@@ -1,7 +1,7 @@
 import React from 'react';
 import './Main.css';
-import EmailInput from '../EmailInput';
-import PhoneNotification from '../Phone/PhoneNotification';
+import EmailInput from './EmailInput';
+import PhoneNotification from './Phone/PhoneNotification';
 
 const Main = () => {
   return (

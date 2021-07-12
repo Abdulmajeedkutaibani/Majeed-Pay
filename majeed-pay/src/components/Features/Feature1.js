@@ -3,7 +3,7 @@ import TitleAndInfo from '../TitleAndInfo';
 import Feature1Image from './Feature1.svg';
 const Feature1 = () => {
   return (
-    <div className='feature'>
+    <div className='feature1'>
       <img src={Feature1Image} alt='' />
       <TitleAndInfo
         title='Easy to implement'

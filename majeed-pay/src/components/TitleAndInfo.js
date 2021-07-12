@@ -3,7 +3,7 @@ import React from 'react';
 const TitleAndInfo = ({ title, info }) => {
   return (
     <div className='title-info'>
-      <h2>{title}</h2>
+      <h1>{title}</h1>
       <p>{info}</p>
     </div>
   );

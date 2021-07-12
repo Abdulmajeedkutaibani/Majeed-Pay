@@ -16,15 +16,12 @@ body {
   margin-top: 3rem;
   background: lightsteelblue;
 }
-.padding-x {
-  padding: 0 10%;
-}
+
 .container {
   position: relative;
   padding: 0 7%;
   margin: 0 auto;
   background: #edf3f8;
-  height: 200vh;
 }
 
 /* General Components */
@@ -176,45 +173,37 @@ body {
   height: 164px;
   width: 445px;
 }
-.title-info h2 {
+.title-info h1 {
   font-family: DM Serif Display;
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
+  line-height: 56px;
   color: #36536b;
   margin-bottom: 24px;
 }
 .title-info p {
   font-size: 15px;
+  line-height: 28px;
   color: var(--secondary-color-4);
 }
-/* Text Fields */
-/* -------------------------------
--------------------------------
--------------------------------
--------------------------------
--------------------------------
-------------------------------- */
-.feature {
-  display: flex;
-  align-items: center;
-}
-
-.feature2 {
-  display: flex;
-  gap: 95px;
-}
-.feature2-phones {
-  display: flex;
-  justify-self: flex-end;
-}
-.feature2-phones .phone {
-  margin-right: 40px;
-}
-
 @media screen and (max-width: 1024px) {
-  .feature {
-    flex-direction: column;
+  .title-info {
+    text-align: center;
+  }
+  .title-info h1 {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .title-info h1 {
+    font-size: 48px;
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .title-info h1 {
+    font-size: 36px;
   }
 }
 
@@ -239,3 +228,15 @@ body {
     text-align: center;
   }
 }
+/* Home Page */
+.home-page {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+/* -------------------------------
+-------------------------------
+-------------------------------
+-------------------------------
+-------------------------------
+------------------------------- */
