@@ -1,23 +1,23 @@
 import React from 'react';
-import './Home.css';
+import './Main.css';
 import EmailInput from '../EmailInput';
 import PhoneNotification from '../Phone/PhoneNotification';
 
-const Home = () => {
+const Main = () => {
   return (
-    <div className='home'>
-      <div className='home-info'>
+    <div className='main'>
+      <div className='main-info'>
         <h1>Start building with our APIs for absolutely free.</h1>
         <EmailInput />
         <p>
           Have any questions? <span>Contact Us</span>
         </p>
       </div>
-      <div className='home-image'>
+      <div className='main-image'>
         <PhoneNotification />
       </div>
     </div>
   );
 };
 
-export default Home;
+export default Main;

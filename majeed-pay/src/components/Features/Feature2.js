@@ -1,9 +1,6 @@
 import React from 'react';
 import Phone from '../Phone/PhoneDefault';
 import TitleAndInfo from '../TitleAndInfo';
-import Feature2ImageA from './Feature2A.svg';
-import Feature2ImageB from './Feature2B.svg';
-import Notification from '../Phone/Notification';
 import PhoneApp from '../Phone/PhoneApp';
 import PhoneApp2 from '../Phone/PhoneApp2';
 const Feature2 = () => {

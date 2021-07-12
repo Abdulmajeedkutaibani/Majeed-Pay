@@ -2,6 +2,7 @@ import React from 'react';
 import MoneyIcon from './MoneyIcon.svg';
 import StockIcon from './StockIcon.svg';
 import CreditCardIcon from './CreditCardIcon.svg';
+import './FeaturesGroup.css';
 const FeaturesGroup = () => {
   return (
     <div className='features-group'>
