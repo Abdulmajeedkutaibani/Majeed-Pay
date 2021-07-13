@@ -215,19 +215,20 @@ body {
   font-size: 56px;
   line-height: 56px;
   color: #36536b;
-  margin-top: 2rem;
-  margin-top: 1rem;
+  margin-bottom: 51px;
 }
 @media screen and (max-width: 1024px) {
   .page-heading-title {
     width: 100%;
     text-align: center;
+    margin-bottom: 54px;
   }
 }
 @media screen and (max-width: 768px) {
   .page-heading-title {
     font-size: 32px;
     line-height: 36px;
+    margin-bottom: 40px;
   }
 }
 /* Ready to start */
