@@ -20,10 +20,11 @@ import BasicPlan from './components/Plans/BasicPlan';
 import PremiumPlan from './components/Plans/PremiumPlan';
 import Plans from './components/Plans/Plans';
 import PricingPage from './components/Pages/PricingPage';
+import AboutPage from './components/Pages/AboutPage';
 function App() {
   return (
     <div className='container'>
-      <PricingPage />
+      <AboutPage />
     </div>
   );
 }

@@ -1,12 +1,3 @@
-.pricing-title {
-  font-family: DM Serif Display;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 56px;
-  line-height: 56px;
-  color: #36536b;
-  margin-bottom: 72px;
-}
 .plans {
   display: flex;
   gap: 2rem;
