@@ -8,7 +8,7 @@ import Nvidia from './Nvidia.svg';
 
 const BannerLogos = () => {
   return (
-    <div className='banner-logos'>
+    <div className='company-logos-white'>
       <img src={Tesla} alt='' />
       <img src={Microsoft} alt='' />
       <img src={Hp} alt='' />

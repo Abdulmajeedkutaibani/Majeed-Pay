@@ -27,9 +27,6 @@ const Form = () => {
 
   return (
     <div className='form'>
-      <div className='title'>
-        Submit a help request and we’ll get in touch shortly.
-      </div>
       <div className='inputs'>
         <form onSubmit={handleSubmit(submitForm)}>
           <div className='input-field'>

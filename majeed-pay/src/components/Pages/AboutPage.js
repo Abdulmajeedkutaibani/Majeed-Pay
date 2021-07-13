@@ -1,4 +1,5 @@
 import React from 'react';
+import '../About/About.css';
 import OurQuality from '../About/OurQuality';
 import TeamCount from '../About/TeamCount';
 import Footer from '../Footer/Footer';

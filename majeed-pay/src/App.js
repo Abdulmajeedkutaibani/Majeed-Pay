@@ -21,10 +21,11 @@ import PremiumPlan from './components/Plans/PremiumPlan';
 import Plans from './components/Plans/Plans';
 import PricingPage from './components/Pages/PricingPage';
 import AboutPage from './components/Pages/AboutPage';
+import ContactPage from './components/Pages/ContactPage';
 function App() {
   return (
     <div className='container'>
-      <AboutPage />
+      <ContactPage />
     </div>
   );
 }
