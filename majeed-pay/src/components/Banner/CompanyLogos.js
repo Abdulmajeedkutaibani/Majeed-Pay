@@ -6,9 +6,9 @@ import Oracle from './Oracle.svg';
 import Google from './Google.svg';
 import Nvidia from './Nvidia.svg';
 
-const BannerLogos = () => {
+const CompanyLogos = () => {
   return (
-    <div className='company-logos-white'>
+    <div className='company-logos'>
       <img src={Tesla} alt='' />
       <img src={Microsoft} alt='' />
       <img src={Hp} alt='' />
@@ -19,4 +19,4 @@ const BannerLogos = () => {
   );
 };
 
-export default BannerLogos;
+export default CompanyLogos;

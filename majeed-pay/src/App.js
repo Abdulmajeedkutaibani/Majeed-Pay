@@ -9,7 +9,7 @@ import PhoneNotification from './components/Phone/PhoneNotification';
 import PhoneApp from './components/Phone/PhoneApp';
 import PhoneApp2 from './components/Phone/PhoneApp2';
 import BannerInfo from './components/Banner/BannerInfo';
-import BannerLogos from './components/Banner/BannerLogos';
+import BannerLogos from './components/Banner/CompanyLogos';
 import Banner from './components/Banner/Banner';
 import FeaturesGroup from './components/Features/FeaturesGroup';
 import ReadyToStart from './components/ReadyToStart';

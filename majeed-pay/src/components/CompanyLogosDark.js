@@ -7,7 +7,7 @@ import GoogleDark from './Contact/GoogleDark.svg';
 import NvidiaDark from './Contact/NvidiaDark.svg';
 const CompanyLogosDark = () => {
   return (
-    <div className='company-logos-white'>
+    <div className='company-logos'>
       <img src={TeslaDark} alt='' />
       <img src={MicrosoftDark} alt='' />
       <img src={HpDark} alt='' />
