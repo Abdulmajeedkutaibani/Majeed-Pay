@@ -8,11 +8,9 @@ import ReadyToStart from '../ReadyToStart';
 const PricingPage = () => {
   return (
     <div className='pricing-page'>
-      <Navbar />
       <PageHeaderTitle text='Pricing' />
       <Plans />
       <ReadyToStart />
-      <Footer />
     </div>
   );
 };

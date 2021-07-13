@@ -1,11 +1,13 @@
 nav {
   display: flex;
   align-items: center;
+  margin-bottom: 3.5rem;
 }
 .navIcon {
   display: flex;
   cursor: pointer;
   align-items: center;
+  text-decoration: none;
 }
 .navIcon img {
   margin-right: 8.5px;
@@ -14,6 +16,9 @@ nav {
   color: var(--secondary-color-1);
   font-size: 24px;
   font-weight: bolder;
+}
+.navIcon-white {
+  text-decoration: none;
 }
 .navIcon-white span {
   color: var(--primary-color-2);
@@ -61,8 +66,15 @@ nav {
 .navList2-hidden ul {
   display: none;
 }
+@media screen and (max-width: 1024px) {
+  nav {
+    margin-bottom: 3rem;
+  }
+}
 @media screen and (max-width: 768px) {
   nav {
+    margin-bottom: 2rem;
+
     justify-content: space-between;
   }
 

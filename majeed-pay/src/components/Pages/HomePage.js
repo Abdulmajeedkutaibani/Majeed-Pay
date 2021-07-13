@@ -10,13 +10,11 @@ import ReadyToStart from '../ReadyToStart';
 const HomePage = () => {
   return (
     <div className='home-page'>
-      <Navbar />
       <Main />
       <Banner />
       <Features />
       <FeaturesGroup />
       <ReadyToStart />
-      <Footer />
     </div>
   );
 };

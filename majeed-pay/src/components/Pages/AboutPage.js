@@ -9,7 +9,6 @@ import ReadyToStart from '../ReadyToStart';
 const AboutPage = () => {
   return (
     <div className='about-page'>
-      <Navbar />
       <PageHeaderTitle text='We empower innovators by delivering access to the financial system' />
       <OurQuality
         quality='Our Vision'
@@ -30,7 +29,6 @@ const AboutPage = () => {
         description='We are all passionate about building a more efficient and inclusive financial infrastructure together. At PayAPI, we have diverse backgrounds and skills.'
       />
       <ReadyToStart />
-      <Footer />
     </div>
   );
 };

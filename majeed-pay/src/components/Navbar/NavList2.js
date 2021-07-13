@@ -1,5 +1,6 @@
 import React from 'react';
 import Btn from '../Btn';
+import { Link } from 'react-router-dom';
 
 const NavList2 = ({ navListClass }) => {
   return (
@@ -7,13 +8,13 @@ const NavList2 = ({ navListClass }) => {
       <div className='bottom-line'></div>
       <ul>
         <li>
-          <a href=''>Pricing</a>
+          <Link to='/pricing'>Pricing</Link>
         </li>
         <li>
-          <a href=''>About</a>
+          <Link to='/about'>About</Link>
         </li>
         <li>
-          <a href=''>Contact</a>
+          <Link to='/contact'>Contact</Link>
         </li>
         <li>
           <Btn btnType='btn-1' btnText='Schedule a Demo' />

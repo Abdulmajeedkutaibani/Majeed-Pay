@@ -9,7 +9,6 @@ import ReadyToStart from '../ReadyToStart';
 const ContactPage = () => {
   return (
     <>
-      <Navbar />
       <div className='contact-page'>
         <PageHeaderTitle text='Submit a help request and we’ll get in touch shortly.' />
         <div className='form-section'>
@@ -23,7 +22,6 @@ const ContactPage = () => {
         </div>
         <ReadyToStart />
       </div>
-      <Footer />
     </>
   );
 };

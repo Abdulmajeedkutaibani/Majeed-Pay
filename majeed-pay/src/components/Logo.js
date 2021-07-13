@@ -1,12 +1,13 @@
 import React from 'react';
 import Icon from './Icon.svg';
+import { Link } from 'react-router-dom';
 
 const Logo = () => {
   return (
-    <div className='navIcon'>
+    <Link to='/' className='navIcon'>
       <img src={Icon} alt='' />
       <span>MajeedPay</span>
-    </div>
+    </Link>
   );
 };
 

@@ -1,12 +1,12 @@
 import React from 'react';
 import IconWhite from './IconWhite.svg';
-
+import { Link } from 'react-router-dom';
 const LogoWhite = () => {
   return (
-    <div className='navIcon navIcon-white'>
+    <Link to='/' className='navIcon navIcon-white'>
       <img src={IconWhite} alt='' />
       <span>MajeedPay</span>
-    </div>
+    </Link>
   );
 };
 
