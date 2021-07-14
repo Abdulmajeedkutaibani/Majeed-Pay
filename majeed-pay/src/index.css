@@ -14,7 +14,7 @@
 }
 body {
   margin-top: 3rem;
-  background: lightsteelblue;
+  background: #edf3f8;
 }
 
 .container {
@@ -233,6 +233,7 @@ body {
 }
 /* Ready to start */
 .ready-to-start {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
