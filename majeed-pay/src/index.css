@@ -20,7 +20,6 @@ body {
 .container {
   position: relative;
   padding: 0 7%;
-  margin: 0 auto;
   background: #edf3f8;
 }
 
@@ -189,6 +188,7 @@ body {
 }
 @media screen and (max-width: 1024px) {
   .title-info {
+    margin-top: 2rem;
     text-align: center;
   }
   .title-info h1 {
