@@ -6,7 +6,7 @@ const Notification = () => {
       <h1 className='time'>12:49</h1>
       <div className='notification'>
         <div className='title-time'>
-          <h3 className='notification-title'>PayAPI</h3>
+          <h3 className='notification-title'>MajeedPay</h3>
           <span className='notification-time'>Just Now</span>
         </div>
         <p className='info'>

@@ -26,7 +26,7 @@ const AboutPage = () => {
       />
       <OurQuality
         quality='The People'
-        description='We are all passionate about building a more efficient and inclusive financial infrastructure together. At PayAPI, we have diverse backgrounds and skills.'
+        description='We are all passionate about building a more efficient and inclusive financial infrastructure together. At MajeedPay, we have diverse backgrounds and skills.'
       />
       <ReadyToStart />
     </div>
