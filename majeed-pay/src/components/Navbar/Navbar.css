@@ -1,7 +1,10 @@
 nav {
+  margin-left: -9%;
+  width: 100vw;
   display: flex;
   align-items: center;
   margin-bottom: 3.5rem;
+  padding: 0 7%;
 }
 .navIcon {
   display: flex;

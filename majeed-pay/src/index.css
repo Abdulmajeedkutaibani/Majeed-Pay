@@ -298,7 +298,6 @@ body {
 .contact-page {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 .form-section {
   display: flex;
@@ -318,6 +317,9 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
+  .contact-page {
+    align-items: center;
+  }
   .form-section {
     flex-direction: column;
     width: 80%;
