@@ -13,10 +13,15 @@
   --secondary-color-4: #6c8294;
 }
 body {
-  margin-top: 3rem;
+  width: 100vw;
+  margin-top: 2rem;
   background: #edf3f8;
 }
-
+@media screen and (max-width: 768px) {
+  body {
+    margin-top: 10px;
+  }
+}
 .container {
   position: relative;
   padding: 0 7%;

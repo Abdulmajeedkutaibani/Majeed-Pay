@@ -1,6 +1,6 @@
 .banner {
   margin-left: -9%;
-  width: 100vw;
+  width: 101vw;
   display: flex;
   align-items: center;
   background: var(--secondary-color-2);
@@ -41,7 +41,8 @@
 
 @media screen and (max-width: 768px) {
   .banner {
-    padding: 80px 24px;
+    padding: 4rem 1rem;
+    width: 108vw;
   }
   .banner-info {
     gap: 1rem;
