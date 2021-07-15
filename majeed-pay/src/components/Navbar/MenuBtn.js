@@ -21,9 +21,9 @@ const MenuBtn = () => {
 
   return (
     <button className={menuBtn} onClick={handleClick}>
-      <div className={line1}></div>
-      <div className={line2}></div>
-      <div className={line3}></div>
+      <span className={line1}></span>
+      <span className={line2}></span>
+      <span className={line3}></span>
     </button>
   );
 };
