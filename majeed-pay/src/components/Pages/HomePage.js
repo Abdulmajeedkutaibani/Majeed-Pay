@@ -10,6 +10,7 @@ import ReadyToStart from '../ReadyToStart';
 const HomePage = () => {
   return (
     <div className='home-page'>
+      <div className='circle-1'></div>
       <Main />
       <Banner />
       <Features />

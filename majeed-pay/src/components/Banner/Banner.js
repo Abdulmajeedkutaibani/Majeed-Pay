@@ -5,6 +5,7 @@ import BannerLogos from './CompanyLogos';
 const Banner = () => {
   return (
     <div className='banner'>
+      <div className='circle-1'></div>
       <BannerInfo />
       <BannerLogos />
     </div>

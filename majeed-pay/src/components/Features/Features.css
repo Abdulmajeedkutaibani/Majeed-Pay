@@ -71,8 +71,14 @@
   }
 }
 @media screen and (max-width: 758px) {
+  .feature1 .title-info {
+    margin-left: 3rem;
+  }
   .feature2 {
     gap: 2rem;
+  }
+  .feature2 .title-info {
+    margin-left: 2rem;
   }
   .feature2-phones {
     gap: 1.5rem;

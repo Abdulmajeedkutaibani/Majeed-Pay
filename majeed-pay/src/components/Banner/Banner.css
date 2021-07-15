@@ -1,12 +1,15 @@
 .banner {
+  overflow: hidden;
   margin-left: -9%;
   width: 101vw;
   display: flex;
   align-items: center;
   background: var(--secondary-color-2);
   padding: 6rem;
+  position: relative;
 }
 .banner-info {
+  z-index: 3;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -41,16 +44,38 @@
 
 @media screen and (max-width: 768px) {
   .banner {
-    padding: 4rem 1rem;
-    width: 108vw;
+    padding: 4rem 0rem;
+    width: 102vw;
   }
   .banner-info {
-    gap: 1rem;
+    gap: 2rem;
   }
   .banner-info h1 {
     font-size: 32px;
   }
   .banner-info p {
     font-size: 15px;
+  }
+}
+
+.banner .circle-1 {
+  opacity: 0.2;
+  left: -20%;
+  top: -75%;
+  width: 780px;
+  height: 780px;
+}
+@media screen and (max-width: 1024px) {
+  .banner .circle-1 {
+    width: 780px;
+    height: 780px;
+    left: 6%;
+    top: -100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .banner .circle-1 {
+    left: -50%;
+    top: -90%;
   }
 }

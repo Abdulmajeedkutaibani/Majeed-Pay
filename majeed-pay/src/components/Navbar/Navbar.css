@@ -53,6 +53,10 @@ nav {
 .navList1 ul li a:hover {
   opacity: 1;
 }
+.navList1 button {
+  z-index: 10;
+  margin-top: 10px;
+}
 .navList2 {
   display: none;
 }
@@ -71,6 +75,7 @@ nav {
 }
 @media screen and (max-width: 1024px) {
   nav {
+    margin-top: 10px;
     margin-bottom: 3rem;
   }
 }
@@ -91,7 +96,7 @@ nav {
     transition: width 1s;
     display: flex;
     position: absolute;
-    right: -7%;
+    right: 0;
     top: -10px;
     width: 80%;
     height: 100vh;
@@ -101,7 +106,7 @@ nav {
   }
   .navList2 ul {
     list-style: none;
-    margin-top: 43px;
+    margin-top: 4rem;
     border-top: rgba(251, 252, 254, 0.15) solid 1px;
     padding-top: 43px;
   }
@@ -141,6 +146,7 @@ nav {
     width: 28px;
     height: 17px;
     position: relative;
+    z-index: 5;
   }
   .menu-btn-active {
     z-index: 4;
