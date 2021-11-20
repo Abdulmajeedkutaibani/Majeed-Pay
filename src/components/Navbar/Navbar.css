@@ -91,11 +91,11 @@ nav {
   }
 
   .navList2 {
-    z-index: 3;
+    z-index: 30;
     overflow: hidden;
     transition: width 1s;
     display: flex;
-    position: absolute;
+    position: fixed;
     right: 0;
     top: -10px;
     width: 80%;
@@ -160,6 +160,7 @@ nav {
     border: none;
     background: none;
     margin-bottom: 1rem;
+    z-index: 40;
   }
   .line1 {
     background: var(--secondary-color-1);
