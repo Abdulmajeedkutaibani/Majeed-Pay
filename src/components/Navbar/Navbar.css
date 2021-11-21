@@ -81,8 +81,12 @@ nav {
 }
 @media screen and (max-width: 768px) {
   nav {
+    height: 60px;
+    margin-top: 0;
+    background-color: #fbfcfe;
+    z-index: 40;
     margin-bottom: 2rem;
-
+    position: fixed;
     justify-content: space-between;
   }
 
